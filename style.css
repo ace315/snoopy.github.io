@@ -1,0 +1,276 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fef7e6; /* Light Snoopy-inspired background */
+    color: #3d3d3d;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffebcd; /* Light beige header */
+    padding: 5px;
+    text-align: center;
+    border-bottom: 4px dashed #d2691e; /* Brown dashed border */
+}
+
+header h1 {
+    color: #d2691e; /* Snoopy brown */
+    font-size: 2.5em;
+}
+
+nav {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ff4500; /* Cute orange */
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #fffacd; /* Pale yellow for links */
+}
+
+nav a:hover {
+    background-color: #ff4500; /* Snoopy-orange hover effect */
+    color: white;
+    transition: background-color 0.3s ease;
+    transition: transform 0.5s ease;
+}
+
+main {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 800px;
+}
+
+main h2 {
+    margin-bottom: 0 15pxs;
+}
+
+.snoopy-icon {
+    max-width: 80px;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.snoopy-gif {
+    max-width: auto;
+    height: 200px;
+    margin-bottom: 10px;
+    transition: transform 0.5s ease;
+}
+
+.snoopy3 {
+    max-width: auto;
+    height: 50px;
+    margin-bottom: 10px;
+    transition: transform 0.5s ease;
+}
+
+.input-container {
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px 20px;
+    border: 2px dashed #d2691e; /* Snoopy-brown border */
+    border-radius: 15px;
+    outline: none;
+    background-color: #fffacd; /* Pale yellow input background */
+    text-align: center;
+}
+
+input[type="text"]:focus {
+    border-color: #ff4500; /* Bright orange focus border */
+}
+
+#results {
+    background-color: #fff8dc; /* Cornsilk background */
+    border-radius: 15px;
+    border: 4px dashed #d2691e;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#results p {
+    font-size: 18px;
+    color: #3d3d3d;
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+    color: #333;
+    border-top: 2px solid #d2691e;
+    margin-top: 20px;
+}
+footer a {
+    text-decoration: none;
+    color: #d2691e;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #FFD36E;
+    color: #2C2C2C;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+
+.number-system {
+    background-color: #fef7e6;
+    border-radius: 15px;
+    border: 4px dashed #d2691e;
+    padding: 20px;
+}
+
+.decimal {
+    text-align: left;
+    background-color: #fef7e6;
+    border-radius: 15px;
+    border: 4px dashed #d2691e;
+    padding: 20px;
+}
+
+.decimal:hover {
+    background-color: #ffebcd;
+}
+
+.binary {
+    text-align: left;
+    background-color: #fef7e6;
+    border-radius: 15px;
+    border: 4px dashed #d2691e;
+    padding: 20px;
+}
+
+.binary:hover {
+    background-color: #ffebcd;
+}
+
+.octal {
+    text-align: left;
+    background-color: #fef7e6;
+    border-radius: 15px;
+    border: 4px dashed #d2691e;
+    padding: 20px;
+}
+
+.octal:hover {
+    background-color: #ffebcd;
+}
+
+.hexadecimal {
+    text-align: left;
+    background-color: #fef7e6;
+    border-radius: 15px;
+    border: 4px dashed #d2691e;
+    padding: 20px;
+}
+
+.hexadecimal:hover {
+    background-color: #ffebcd;
+}
+
+.roman-numbers {
+    text-align: left;
+    background-color: #fef7e6;
+    border-radius: 15px;
+    border: 4px dashed #d2691e;
+    padding: 20px;
+}
+
+.roman-numbers:hover {
+    background-color: #ffebcd;
+}
+
+.others {
+    text-align: left;
+    background-color: #fef7e6;
+    border-radius: 15px;
+    border: 4px dashed #d2691e;
+    padding: 20px;
+}
+
+.others:hover {
+    background-color: #ffebcd;
+}
+
+.core-concept {
+    text-align: left;
+    background-color: #fef7e6;
+    border-radius: 15px;
+    border: 4px dashed #d2691e;
+    padding: 20px;
+}
+
+.core-concept:hover {
+    background-color: #ffebcd;
+}
+
+.historical {
+    text-align: left;
+    background-color: #fef7e6;
+    border-radius: 15px;
+    border: 4px dashed #d2691e;
+    padding: 20px;
+}
+
+.historical:hover {
+    background-color: #ffebcd;
+}
+
+.feedback-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 2px solid #d2691e;
+    border-radius: 10px;
+}
+.feedback-section h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #d2691e;
+}
+.feedback-section textarea {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    font-size: 16px;
+}
+.feedback-section button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #d2691e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.feedback-section button:hover {
+    background-color: #a0522d;
+}
